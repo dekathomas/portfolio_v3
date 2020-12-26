@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+
+:root {
+    --darkBlue: #2B5876;
+    --darkPurple: #4E4376;
+    --twitter: #1DA1F2;
+    --github: #24292E;
+    --linkedin: #0A66C2;
+    --facebook: linear-gradient(to bottom, #17AAFD, #0164E1);
+    --instagram: linear-gradient(to top right, #FF8B4A, #B031B7);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: .4rem .8rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.content__title {
+	color: #AAA;
+	margin-bottom: 3rem;
+}
